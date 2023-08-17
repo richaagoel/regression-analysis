@@ -1,0 +1,7 @@
+ASSUMPTIONS:
+
+1. Linearity: The linearity assumption is that the effects of a number of variables (transformed or untransformed, i.e., it can include square-root or square of a feature, ie feature raised to any power) add up and lead to a model with normally and independently, randomly scattered residuals.
+    Y = a + (b1* X1) + (b2*X2^2) + …
+    Although, X2 is raised to power 2, the equation is still linear in parameters.
+
+2. No multi-collinearity: No linear relationship b/w the independent variables.
